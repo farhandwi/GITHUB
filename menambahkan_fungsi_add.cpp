@@ -4,3 +4,7 @@ int ADD(int a, int b){
   cout << a << " + " << b << " = " << c << endl;
   return c;
 }
+
+void ADD_MENU(string a, string b){
+  cout << "Menambahkan Menu baru" << endl;
+}
