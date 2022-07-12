@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+void ADD_MENU(int a, int b){
+  cout << "Menambahkan Menu baru" << endl;
+  cout << "Masukkan stok pertama: ";
+  cin >> a;
+  cout << "Masukkan stok kedua: ";
+  cin >> b;
+  
+  cout <<< "Total stoknya adalah: " << a + b << endl;
+}
+
 int main(){
   cout << "Hello World" << endl;
   int a, b;
