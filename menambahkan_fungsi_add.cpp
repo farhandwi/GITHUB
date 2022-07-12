@@ -5,6 +5,12 @@ int ADD(int a, int b){
   return c;
 }
 
-void ADD_MENU(string a, string b){
+void ADD_MENU(int a, int b){
   cout << "Menambahkan Menu baru" << endl;
+  cout << "Masukkan stok pertama: ";
+  cin >> a;
+  cout << "Masukkan stok kedua: ";
+  cin >> b;
+  
+  cout <<< "Total stoknya adalah: " << a + b << endl;
 }
